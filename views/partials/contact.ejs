@@ -1,0 +1,30 @@
+<section id ="contact">
+    <div class="container mt-5">
+      <div class="text-center col-12 col-md-12 col-lg-12  mt-2 mb-5">
+        <h1 style="font-size:3vw;">Contact-nous</h1>
+      </div>
+      <div class="jumbotron">
+        <form action="/Message" method="POST">
+          <div class="form-group">
+            <label for="name">Nom:</label>
+            <input type="text" class="form-control" id="name" placeholder="khalifa gueye" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="name">Telephone:</label>
+            <input type="number" class="form-control" id="phone" placeholder="+33 7 58 78 75 38" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" id="emal" placeholder="khalifa@net" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Votre Message:</label>
+            <textarea class="form-control" rows="5" id="comment" name="message" required placeholder="Je desire être contacter..."></textarea>
+          </div>
+         
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </div>
+</section>
